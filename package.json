@@ -1,5 +1,5 @@
 {
-  "name": "multer",
+  "name": "@duydatpham/multer",
   "description": "Middleware for handling `multipart/form-data`.",
   "version": "1.4.2",
   "contributors": [
@@ -8,7 +8,10 @@
     "Linus Unnebäck <linus@folkdatorn.se>"
   ],
   "license": "MIT",
-  "repository": "expressjs/multer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expressjs/multer.git"
+  },
   "keywords": [
     "form",
     "post",
@@ -48,5 +51,16 @@
   ],
   "scripts": {
     "test": "standard && mocha"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/expressjs/multer/issues"
+  },
+  "homepage": "https://github.com/expressjs/multer#readme",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
